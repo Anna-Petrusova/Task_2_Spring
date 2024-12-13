@@ -1,0 +1,16 @@
+(POST) http://localhost:8990/createCompass
+{
+"east" : "66-115",
+"south" : "156-205",
+"west" : "246-295",
+"northEast" : "26-65",
+"northWest" : "296-335",
+"southWest" : "206-245",
+"southEast" : "116-155",
+"north" : "25-336"
+}
+
+(GET) http://localhost:8990/getSide
+{
+        "Degree" : 60
+}

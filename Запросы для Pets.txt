@@ -1,0 +1,22 @@
+(POST)http://localhost:8989/createPet
+{
+        "name" : "timmy",
+        "type" : "cat",
+        "age" : 2
+}
+(PUT)http://localhost:8989/putPet
+{
+        "id" : 1,   
+        "name" : "punch",
+        "type" : "dog",
+        "age" : 2
+}
+(GET)http://localhost:8989/getAll - пустое тело запроса
+(GET)http://localhost:8989/getPet
+{
+        "id" : 5
+}
+(DELETE)http://localhost:8989/deletePet
+{
+        "id" : 1
+}
